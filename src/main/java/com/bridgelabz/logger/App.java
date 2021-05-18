@@ -25,10 +25,10 @@ public class App
         Appender appender = new FileAppender(layout, "Applog.log");
 //    	Appender appender = new ConsoleAppender(layout);
         logger.addAppender(appender);
-        logger.debug("debug priority");
-        logger.info("info priority");
-        logger.warn("warn priority");
-        logger.error("error priority");
-        logger.fatal("fatal priority");
+        logger.debug("debug3 priority");
+        logger.info("info45 priority");
+        logger.warn("warn67 priority");
+        logger.error("error23 priority");
+        logger.fatal("fatal234 priority");
     }
 }
